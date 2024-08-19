@@ -4,7 +4,7 @@ namespace MauiAppShowDoMIilhao
 {
     public partial class App : Application
     {
-        List<Pergunta> perguntas_faceis = new()
+        static List<Pergunta> perguntas_faceis = new()
         {
             new Pergunta
             {
@@ -129,7 +129,7 @@ namespace MauiAppShowDoMIilhao
                 Enunciado = "O que era Frankenstein, de Mary Shelley?",
                 Alternativas = new()
                 {
-                    new Alternativa { Correta = false, Descricao = "MONSTRO" },
+                    new Alternativa { Correta = true, Descricao = "MONSTRO" },
                     new Alternativa { Correta = false, Descricao = "GORILA" },
                     new Alternativa { Correta = false, Descricao = "PRÍNCIPE" },
                     new Alternativa { Correta = false, Descricao = "SAPO" },
@@ -157,7 +157,7 @@ namespace MauiAppShowDoMIilhao
                 {
                     new Alternativa { Correta = false, Descricao = "HARRISON FORD" },
                     new Alternativa { Correta = false, Descricao = "GERALD FORD" },
-                    new Alternativa { Correta = false, Descricao = "HENRY FORD" },
+                    new Alternativa { Correta = true, Descricao = "HENRY FORD" },
                     new Alternativa { Correta = false, Descricao = "ANNA FORD" },
                 }
             },
@@ -171,7 +171,7 @@ namespace MauiAppShowDoMIilhao
                     new Alternativa { Correta = false, Descricao = "PRETO" },
                     new Alternativa { Correta = false, Descricao = "VERMELHO" },
                     new Alternativa { Correta = false, Descricao = "AZUL" },
-                    new Alternativa { Correta = false, Descricao = "VERDE" },
+                    new Alternativa { Correta = true, Descricao = "VERDE" },
                 }
             },
 
@@ -182,7 +182,7 @@ namespace MauiAppShowDoMIilhao
                 Alternativas = new()
                 {
                     new Alternativa { Correta = false, Descricao = "200" },
-                    new Alternativa { Correta = false, Descricao = "100" },
+                    new Alternativa { Correta = true, Descricao = "100" },
                     new Alternativa { Correta = false, Descricao = "170" },
                     new Alternativa { Correta = false, Descricao = "220" },
                 }
@@ -196,7 +196,7 @@ namespace MauiAppShowDoMIilhao
                 {
                     new Alternativa { Correta = false, Descricao = "21 DE ABRIL" },
                     new Alternativa { Correta = false, Descricao = "12 DE OUTUBRO" },
-                    new Alternativa { Correta = false, Descricao = "7 DE SETEMBRO" },
+                    new Alternativa { Correta = true, Descricao = "7 DE SETEMBRO" },
                     new Alternativa { Correta = false, Descricao = "15 DE NOVEMBRO" },
                 }
             },
@@ -210,7 +210,7 @@ namespace MauiAppShowDoMIilhao
                     new Alternativa { Correta = false, Descricao = "VENEZA" },
                     new Alternativa { Correta = false, Descricao = "VITÓRIA" },
                     new Alternativa { Correta = false, Descricao = "VANCOUVER" },
-                    new Alternativa { Correta = false, Descricao = "VATICANO" },
+                    new Alternativa { Correta = true, Descricao = "VATICANO" },
                 }
             },
 
@@ -221,7 +221,7 @@ namespace MauiAppShowDoMIilhao
                 Alternativas = new()
                 {
                     new Alternativa { Correta = false, Descricao = "MÉDICOS" },
-                    new Alternativa { Correta = false, Descricao = "ESCOTEIROS" },
+                    new Alternativa { Correta = true, Descricao = "ESCOTEIROS" },
                     new Alternativa { Correta = false, Descricao = "BOMBEIROS" },
                     new Alternativa { Correta = false, Descricao = "POLICIAIS" },
                 }
@@ -233,7 +233,7 @@ namespace MauiAppShowDoMIilhao
                 Enunciado = "Quem foi o grande amor de Julieta?",
                 Alternativas = new()
                 {
-                    new Alternativa { Correta = false, Descricao = "ROMEU" },
+                    new Alternativa { Correta = true, Descricao = "ROMEU" },
                     new Alternativa { Correta = false, Descricao = "ORFEU" },
                     new Alternativa { Correta = false, Descricao = "HAMLET" },
                     new Alternativa { Correta = false, Descricao = "IAGO" },
@@ -249,7 +249,7 @@ namespace MauiAppShowDoMIilhao
                     new Alternativa { Correta = false, Descricao = "NOVE" },
                     new Alternativa { Correta = false, Descricao = "DEZ" },
                     new Alternativa { Correta = false, Descricao = "ONZE" },
-                    new Alternativa { Correta = false, Descricao = "DOZE" },
+                    new Alternativa { Correta = true, Descricao = "DOZE" },
                 }
             },
 
@@ -262,12 +262,12 @@ namespace MauiAppShowDoMIilhao
                     new Alternativa { Correta = false, Descricao = "PARANÁ" },
                     new Alternativa { Correta = false, Descricao = "SANTA CATARINA" },
                     new Alternativa { Correta = false, Descricao = "SÃO PAULO" },
-                    new Alternativa { Correta = false, Descricao = "BAHIA" },
+                    new Alternativa { Correta = true, Descricao = "BAHIA" },
                 }
             }
         };
 
-        List<Pergunta> perguntas_medias = new()
+        static List<Pergunta> perguntas_medias = new()
         {
             new Pergunta
             {
@@ -278,7 +278,7 @@ namespace MauiAppShowDoMIilhao
                     new Alternativa { Correta = false, Descricao = "SEIS" },
                     new Alternativa { Correta = false, Descricao = "OITO" },
                     new Alternativa { Correta = false, Descricao = "DEZ" },
-                    new Alternativa { Correta = false, Descricao = "DOZE" },
+                    new Alternativa { Correta = true, Descricao = "DOZE" },
                 }
             },
 
@@ -289,7 +289,7 @@ namespace MauiAppShowDoMIilhao
                 Alternativas = new()
                 {
                     new Alternativa { Correta = false, Descricao = "URUGUAI" },
-                    new Alternativa { Correta = false, Descricao = "ARGENTINA" },
+                    new Alternativa { Correta = true, Descricao = "ARGENTINA" },
                     new Alternativa { Correta = false, Descricao = "PARAGUAI" },
                     new Alternativa { Correta = false, Descricao = "ESPANHA" },
                 }
@@ -302,7 +302,7 @@ namespace MauiAppShowDoMIilhao
                 Alternativas = new()
                 {
                     new Alternativa { Correta = false, Descricao = "TRAJANO" },
-                    new Alternativa { Correta = false, Descricao = "NERO" },
+                    new Alternativa { Correta = true, Descricao = "NERO" },
                     new Alternativa { Correta = false, Descricao = "BRUTUS" },
                     new Alternativa { Correta = false, Descricao = "CALÍGULA" },
                 }
@@ -316,7 +316,7 @@ namespace MauiAppShowDoMIilhao
                 {
                     new Alternativa { Correta = false, Descricao = "JAPÃO" },
                     new Alternativa { Correta = false, Descricao = "MÉXICO" },
-                    new Alternativa { Correta = false, Descricao = "ITÁLIA" },
+                    new Alternativa { Correta = true, Descricao = "ITÁLIA" },
                     new Alternativa { Correta = false, Descricao = "ESTADOS UNIDOS" },
                 }
             },
@@ -330,7 +330,7 @@ namespace MauiAppShowDoMIilhao
                     new Alternativa { Correta = false, Descricao = "MILANENSE" },
                     new Alternativa { Correta = false, Descricao = "MILANOSO" },
                     new Alternativa { Correta = false, Descricao = "MILISTA" },
-                    new Alternativa { Correta = false, Descricao = "MILANÊS" },
+                    new Alternativa { Correta = true, Descricao = "MILANÊS" },
                 }
             },
 
@@ -340,7 +340,7 @@ namespace MauiAppShowDoMIilhao
                 Enunciado = "Que profissional usa uma ferramenta chamada formão?",
                 Alternativas = new()
                 {
-                    new Alternativa { Correta = false, Descricao = "CARPINTEIRO" },
+                    new Alternativa { Correta = true, Descricao = "CARPINTEIRO" },
                     new Alternativa { Correta = false, Descricao = "RELOJOEIRO" },
                     new Alternativa { Correta = false, Descricao = "CONFEITEIRO" },
                     new Alternativa { Correta = false, Descricao = "BOMBEIRO" },
@@ -355,7 +355,7 @@ namespace MauiAppShowDoMIilhao
                 {
                     new Alternativa { Correta = false, Descricao = "MORUMBI" },
                     new Alternativa { Correta = false, Descricao = "PACAEMBU" },
-                    new Alternativa { Correta = false, Descricao = "MARACANÃ" },
+                    new Alternativa { Correta = true, Descricao = "MARACANÃ" },
                     new Alternativa { Correta = false, Descricao = "MINEIRÃO" },
                 }
             },
@@ -368,7 +368,7 @@ namespace MauiAppShowDoMIilhao
                 {
                     new Alternativa { Correta = false, Descricao = "VULCÃO" },
                     new Alternativa { Correta = false, Descricao = "COMIDA" },
-                    new Alternativa { Correta = false, Descricao = "INSTRUMENTO MUSICAL" },
+                    new Alternativa { Correta = true, Descricao = "INSTRUMENTO MUSICAL" },
                     new Alternativa { Correta = false, Descricao = "TRIBO INDÍGENA" },
                 }
             },
@@ -379,7 +379,7 @@ namespace MauiAppShowDoMIilhao
                 Enunciado = "Como eram chamados os pilotos suicidas da Segunda Guerra?",
                 Alternativas = new()
                 {
-                    new Alternativa { Correta = false, Descricao = "CAMICASES" },
+                    new Alternativa { Correta = true, Descricao = "CAMICASES" },
                     new Alternativa { Correta = false, Descricao = "SASHIMIS" },
                     new Alternativa { Correta = false, Descricao = "HARAQUIRIS" },
                     new Alternativa { Correta = false, Descricao = "SUMÔS" },
@@ -392,7 +392,7 @@ namespace MauiAppShowDoMIilhao
                 Enunciado = "O que é gôndola?",
                 Alternativas = new()
                 {
-                    new Alternativa { Correta = false, Descricao = "EMBARCAÇÃO" },
+                    new Alternativa { Correta = true, Descricao = "EMBARCAÇÃO" },
                     new Alternativa { Correta = false, Descricao = "BRINQUEDO" },
                     new Alternativa { Correta = false, Descricao = "INSTRUMENTO MUSICAL" },
                     new Alternativa { Correta = false, Descricao = "SÍMBOLO" },
@@ -405,7 +405,7 @@ namespace MauiAppShowDoMIilhao
                 Enunciado = "Sashimi é um prato originário de qual país?",
                 Alternativas = new()
                 {
-                    new Alternativa { Correta = false, Descricao = "JAPÃO" },
+                    new Alternativa { Correta = true, Descricao = "JAPÃO" },
                     new Alternativa { Correta = false, Descricao = "CHINA" },
                     new Alternativa { Correta = false, Descricao = "ÍNDIA" },
                     new Alternativa { Correta = false, Descricao = "INDONÉSIA" },
@@ -420,7 +420,7 @@ namespace MauiAppShowDoMIilhao
                 {
                     new Alternativa { Correta = false, Descricao = "PRIMEIRA DAMA" },
                     new Alternativa { Correta = false, Descricao = "DONA-PRIMA" },
-                    new Alternativa { Correta = false, Descricao = "PRIMA-DONA" },
+                    new Alternativa { Correta = true, Descricao = "PRIMA-DONA" },
                     new Alternativa { Correta = false, Descricao = "OBRA-PRIMA" },
                 }
             },
@@ -432,7 +432,7 @@ namespace MauiAppShowDoMIilhao
                 Alternativas = new()
                 {
                     new Alternativa { Correta = false, Descricao = "MAR" },
-                    new Alternativa { Correta = false, Descricao = "MONTANHA" },
+                    new Alternativa { Correta = true, Descricao = "MONTANHA" },
                     new Alternativa { Correta = false, Descricao = "RIO" },
                     new Alternativa { Correta = false, Descricao = "PRAIA" },
                 }
@@ -446,7 +446,7 @@ namespace MauiAppShowDoMIilhao
                 {
                     new Alternativa { Correta = false, Descricao = "PARIS" },
                     new Alternativa { Correta = false, Descricao = "COPENHAGUE" },
-                    new Alternativa { Correta = false, Descricao = "ROMA" },
+                    new Alternativa { Correta = true, Descricao = "ROMA" },
                     new Alternativa { Correta = false, Descricao = "LONDRES" },
                 }
             },
@@ -457,7 +457,7 @@ namespace MauiAppShowDoMIilhao
                 Enunciado = "Qual é o ponto mais alto da Terra?",
                 Alternativas = new()
                 {
-                    new Alternativa { Correta = false, Descricao = "MONTE EVEREST" },
+                    new Alternativa { Correta = true, Descricao = "MONTE EVEREST" },
                     new Alternativa { Correta = false, Descricao = "MONTE SINAI" },
                     new Alternativa { Correta = false, Descricao = "MONTE CASTELO" },
                     new Alternativa { Correta = false, Descricao = "PICO DA BANDEIRA" },
@@ -470,7 +470,7 @@ namespace MauiAppShowDoMIilhao
                 Enunciado = "Que rio corta a cidade de Londres, na Inglaterra?",
                 Alternativas = new()
                 {
-                    new Alternativa { Correta = false, Descricao = "TÂMISA" },
+                    new Alternativa { Correta = true, Descricao = "TÂMISA" },
                     new Alternativa { Correta = false, Descricao = "SENA" },
                     new Alternativa { Correta = false, Descricao = "RENO" },
                     new Alternativa { Correta = false, Descricao = "AUBE" },
@@ -484,7 +484,7 @@ namespace MauiAppShowDoMIilhao
                 Alternativas = new()
                 {
                     new Alternativa { Correta = false, Descricao = "NELSON PIQUET" },
-                    new Alternativa { Correta = false, Descricao = "NELSON MANDELA" },
+                    new Alternativa { Correta = true, Descricao = "NELSON MANDELA" },
                     new Alternativa { Correta = false, Descricao = "JOHN NELSON" },
                     new Alternativa { Correta = false, Descricao = "NELSON NED" },
                 }
@@ -498,7 +498,7 @@ namespace MauiAppShowDoMIilhao
                 {
                     new Alternativa { Correta = false, Descricao = "ORLANDO SILVA" },
                     new Alternativa { Correta = false, Descricao = "VICENTE CELESTINO" },
-                    new Alternativa { Correta = false, Descricao = "FRANCISCO ALVES" },
+                    new Alternativa { Correta = true, Descricao = "FRANCISCO ALVES" },
                     new Alternativa { Correta = false, Descricao = "CARLOS GALHARDO" },
                 }
             },
@@ -509,7 +509,7 @@ namespace MauiAppShowDoMIilhao
                 Enunciado = "Qual é a sigla da Organização das Nações Unidas?",
                 Alternativas = new()
                 {
-                    new Alternativa { Correta = false, Descricao = "ONU" },
+                    new Alternativa { Correta = true, Descricao = "ONU" },
                     new Alternativa { Correta = false, Descricao = "OTAN" },
                     new Alternativa { Correta = false, Descricao = "CIA" },
                     new Alternativa { Correta = false, Descricao = "DNA" },
@@ -524,13 +524,13 @@ namespace MauiAppShowDoMIilhao
                 {
                     new Alternativa { Correta = false, Descricao = "57 ANOS" },
                     new Alternativa { Correta = false, Descricao = "67 ANOS" },
-                    new Alternativa { Correta = false, Descricao = "76 ANOS" },
+                    new Alternativa { Correta = true, Descricao = "76 ANOS" },
                     new Alternativa { Correta = false, Descricao = "79 ANOS" },
                 }
             }
         };
 
-        List<Pergunta> perguntas_dificeis = new()
+        static List<Pergunta> perguntas_dificeis = new()
         {
             new Pergunta
             {
@@ -540,7 +540,7 @@ namespace MauiAppShowDoMIilhao
                 {
                     new Alternativa { Correta = false, Descricao = "ANDORINHA" },
                     new Alternativa { Correta = false, Descricao = "PATO SELVAGEM" },
-                    new Alternativa { Correta = false, Descricao = "PINGUIM" },
+                    new Alternativa { Correta = true, Descricao = "PINGUIM" },
                     new Alternativa { Correta = false, Descricao = "MARRECO" },
                 }
             },
@@ -554,7 +554,7 @@ namespace MauiAppShowDoMIilhao
                     new Alternativa { Correta = false, Descricao = "ALEMANHA" },
                     new Alternativa { Correta = false, Descricao = "BRASIL" },
                     new Alternativa { Correta = false, Descricao = "VENEZUELA" },
-                    new Alternativa { Correta = false, Descricao = "ISRAEL" },
+                    new Alternativa { Correta = true, Descricao = "ISRAEL" },
                 }
             },
 
@@ -567,7 +567,7 @@ namespace MauiAppShowDoMIilhao
                     new Alternativa { Correta = false, Descricao = "PAQUISTÃO" },
                     new Alternativa { Correta = false, Descricao = "JAPÃO" },
                     new Alternativa { Correta = false, Descricao = "TAILÂNDIA" },
-                    new Alternativa { Correta = false, Descricao = "EGITO" },
+                    new Alternativa { Correta = true, Descricao = "EGITO" },
                 }
             },
 
@@ -580,7 +580,7 @@ namespace MauiAppShowDoMIilhao
                     new Alternativa { Correta = false, Descricao = "ARNOLD SCHWARZENEGGER" },
                     new Alternativa { Correta = false, Descricao = "SYLVESTER STALLONE" },
                     new Alternativa { Correta = false, Descricao = "STEVEN SEAGAL" },
-                    new Alternativa { Correta = false, Descricao = "JEAN CLAUDE VAN DAMME" },
+                    new Alternativa { Correta = true, Descricao = "JEAN CLAUDE VAN DAMME" },
                 }
             },
 
@@ -604,7 +604,7 @@ namespace MauiAppShowDoMIilhao
                 Alternativas = new()
                 {
                     new Alternativa { Correta = false, Descricao = "CANNES" },
-                    new Alternativa { Correta = false, Descricao = "NORMANDIA" },
+                    new Alternativa { Correta = true, Descricao = "NORMANDIA" },
                     new Alternativa { Correta = false, Descricao = "CAPRI" },
                     new Alternativa { Correta = false, Descricao = "MARSELHA" },
                 }
@@ -619,7 +619,7 @@ namespace MauiAppShowDoMIilhao
                     new Alternativa { Correta = false, Descricao = "POLÔNIA" },
                     new Alternativa { Correta = false, Descricao = "FRANÇA" },
                     new Alternativa { Correta = false, Descricao = "ITÁLIA" },
-                    new Alternativa { Correta = false, Descricao = "HOLANDA" },
+                    new Alternativa { Correta = true, Descricao = "HOLANDA" },
                 }
             },
 
@@ -631,7 +631,7 @@ namespace MauiAppShowDoMIilhao
                 {
                     new Alternativa { Correta = false, Descricao = "DELTA" },
                     new Alternativa { Correta = false, Descricao = "BETA" },
-                    new Alternativa { Correta = false, Descricao = "ALFA" },
+                    new Alternativa { Correta = true, Descricao = "ALFA" },
                     new Alternativa { Correta = false, Descricao = "GAMA" },
                 }
             },
@@ -642,7 +642,7 @@ namespace MauiAppShowDoMIilhao
                 Enunciado = "Qual presidente brasileiro instituiu o AI-5?",
                 Alternativas = new()
                 {
-                    new Alternativa { Correta = false, Descricao = "COSTA E SILVA" },
+                    new Alternativa { Correta = true, Descricao = "COSTA E SILVA" },
                     new Alternativa { Correta = false, Descricao = "GARRASTAZU MÉDICI" },
                     new Alternativa { Correta = false, Descricao = "GETÚLIO VARGAS" },
                     new Alternativa { Correta = false, Descricao = "ITAMAR FRANCO" },
@@ -656,7 +656,7 @@ namespace MauiAppShowDoMIilhao
                 Alternativas = new()
                 {
                     new Alternativa { Correta = false, Descricao = "10 ONÇAS" },
-                    new Alternativa { Correta = false, Descricao = "10 GRAMAS" },
+                    new Alternativa { Correta = true, Descricao = "10 GRAMAS" },
                     new Alternativa { Correta = false, Descricao = "10 QUILOS" },
                     new Alternativa { Correta = false, Descricao = "10 LIBRAS" },
                 }
@@ -668,7 +668,7 @@ namespace MauiAppShowDoMIilhao
                 Enunciado = "Brahma é o deus de que religião?",
                 Alternativas = new()
                 {
-                    new Alternativa { Correta = false, Descricao = "HINDUÍSMO" },
+                    new Alternativa { Correta = true, Descricao = "HINDUÍSMO" },
                     new Alternativa { Correta = false, Descricao = "XINTOÍSMO" },
                     new Alternativa { Correta = false, Descricao = "BUDISMO" },
                     new Alternativa { Correta = false, Descricao = "ISLAMISMO" },
@@ -682,7 +682,7 @@ namespace MauiAppShowDoMIilhao
                 Alternativas = new()
                 {
                     new Alternativa { Correta = false, Descricao = "BERLIM" },
-                    new Alternativa { Correta = false, Descricao = "NUREMBERG" },
+                    new Alternativa { Correta = true, Descricao = "NUREMBERG" },
                     new Alternativa { Correta = false, Descricao = "MUNIQUE" },
                     new Alternativa { Correta = false, Descricao = "PARIS" },
                 }
@@ -691,11 +691,11 @@ namespace MauiAppShowDoMIilhao
             new Pergunta
             {
                 Id = 53,
-                Enunciado = "ue ramo da pecuária ocupa-se de bodes e cabras?",
+                Enunciado = "Que ramo da pecuária ocupa-se de bodes e cabras?",
                 Alternativas = new()
                 {
                     new Alternativa { Correta = false, Descricao = "ASININO" },
-                    new Alternativa { Correta = false, Descricao = "CAPRINO" },
+                    new Alternativa { Correta = true, Descricao = "CAPRINO" },
                     new Alternativa { Correta = false, Descricao = "BUFALINO" },
                     new Alternativa { Correta = false, Descricao = "MUAR" },
                 }
@@ -708,7 +708,7 @@ namespace MauiAppShowDoMIilhao
                 Alternativas = new()
                 {
                     new Alternativa { Correta = false, Descricao = "ATLÂNTICO" },
-                    new Alternativa { Correta = false, Descricao = "PACÍFICO" },
+                    new Alternativa { Correta = true, Descricao = "PACÍFICO" },
                     new Alternativa { Correta = false, Descricao = "ÍNDICO" },
                     new Alternativa { Correta = false, Descricao = "ÁRTICO" },
                 }
@@ -722,7 +722,7 @@ namespace MauiAppShowDoMIilhao
                 {
                     new Alternativa { Correta = false, Descricao = "FERNANDO COLLOR" },
                     new Alternativa { Correta = false, Descricao = "TANCREDO NEVES" },
-                    new Alternativa { Correta = false, Descricao = "JÕAO FIGUEREDO" },
+                    new Alternativa { Correta = true, Descricao = "JÕAO FIGUEREDO" },
                     new Alternativa { Correta = false, Descricao = "JOÃO GOULART" },
                 }
             },
@@ -733,7 +733,7 @@ namespace MauiAppShowDoMIilhao
                 Enunciado = "Que conflito ideológico envolveu os EUA e a União Soviética?",
                 Alternativas = new()
                 {
-                    new Alternativa { Correta = false, Descricao = "GUERRA FRIA" },
+                    new Alternativa { Correta = true, Descricao = "GUERRA FRIA" },
                     new Alternativa { Correta = false, Descricao = "GUERRA DO VIETNÃ" },
                     new Alternativa { Correta = false, Descricao = "GUERRA DOS 100 ANOS" },
                     new Alternativa { Correta = false, Descricao = "GUERRA DA CORÉIA" },
@@ -746,7 +746,7 @@ namespace MauiAppShowDoMIilhao
                 Enunciado = "O trapézio é um músculo que está situado:",
                 Alternativas = new()
                 {
-                    new Alternativa { Correta = false, Descricao = "NO PESCOÇO" },
+                    new Alternativa { Correta = true, Descricao = "NO PESCOÇO" },
                     new Alternativa { Correta = false, Descricao = "NO OMBRO" },
                     new Alternativa { Correta = false, Descricao = "NA CABEÇA" },
                     new Alternativa { Correta = false, Descricao = "NO BRAÇO" },
@@ -759,7 +759,7 @@ namespace MauiAppShowDoMIilhao
                 Enunciado = "Quem escreveu o livro “A sangue frio” em 1966?",
                 Alternativas = new()
                 {
-                    new Alternativa { Correta = false, Descricao = "TRUMAN CAPOTE" },
+                    new Alternativa { Correta = true, Descricao = "TRUMAN CAPOTE" },
                     new Alternativa { Correta = false, Descricao = "HENRY JAMES" },
                     new Alternativa { Correta = false, Descricao = "JOHN STEINBECK" },
                     new Alternativa { Correta = false, Descricao = "TONI MORRISON" },
@@ -775,7 +775,7 @@ namespace MauiAppShowDoMIilhao
                     new Alternativa { Correta = false, Descricao = "ERNEST HEMINGWAY" },
                     new Alternativa { Correta = false, Descricao = "MARCEL PROUST" },
                     new Alternativa { Correta = false, Descricao = "T.S. ELLIOT" },
-                    new Alternativa { Correta = false, Descricao = "JAMES JOYCE" },
+                    new Alternativa { Correta = true, Descricao = "JAMES JOYCE" },
                 }
             },
 
@@ -787,11 +787,20 @@ namespace MauiAppShowDoMIilhao
                 {
                     new Alternativa { Correta = false, Descricao = "Rr" },
                     new Alternativa { Correta = false, Descricao = "Rd" },
-                    new Alternativa { Correta = false, Descricao = "Rn" },
+                    new Alternativa { Correta = true, Descricao = "Rn" },
                     new Alternativa { Correta = false, Descricao = "Ro" },
                 }
             }
         };
+
+        public static Pergunta getRandomPerguntaFacil()
+        {
+            Random r = new Random();
+
+            int sorteado = r.Next(1, perguntas_faceis.Count);
+
+            return perguntas_faceis[sorteado];
+        }
 
         public App()
         {
