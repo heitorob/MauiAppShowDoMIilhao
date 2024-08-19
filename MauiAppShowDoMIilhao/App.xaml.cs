@@ -590,10 +590,10 @@ namespace MauiAppShowDoMIilhao
                 Enunciado = "O que significa literalmente Perestroika?",
                 Alternativas = new()
                 {
-                    new Alternativa { Correta = false, Descricao = "1" },
-                    new Alternativa { Correta = false, Descricao = "2" },
-                    new Alternativa { Correta = false, Descricao = "3" },
-                    new Alternativa { Correta = false, Descricao = "4" },
+                    new Alternativa { Correta = false, Descricao = "CONVERSÃO" },
+                    new Alternativa { Correta = false, Descricao = "INVOLUÇÃO" },
+                    new Alternativa { Correta = false, Descricao = "REESTRUTURAÇÃO" },
+                    new Alternativa { Correta = false, Descricao = "REGRESSÃO" },
                 }
             },
 
@@ -603,10 +603,10 @@ namespace MauiAppShowDoMIilhao
                 Enunciado = "Onde foi conduzida a vitória das forças aliadas na Segunda Guerra Mundial?",
                 Alternativas = new()
                 {
-                    new Alternativa { Correta = false, Descricao = "1" },
-                    new Alternativa { Correta = false, Descricao = "2" },
-                    new Alternativa { Correta = false, Descricao = "3" },
-                    new Alternativa { Correta = false, Descricao = "4" },
+                    new Alternativa { Correta = false, Descricao = "CANNES" },
+                    new Alternativa { Correta = false, Descricao = "NORMANDIA" },
+                    new Alternativa { Correta = false, Descricao = "CAPRI" },
+                    new Alternativa { Correta = false, Descricao = "MARSELHA" },
                 }
             },
 
@@ -616,10 +616,10 @@ namespace MauiAppShowDoMIilhao
                 Enunciado = "Onde nasceu Van Gogh, o grande pintor impressionista?",
                 Alternativas = new()
                 {
-                    new Alternativa { Correta = false, Descricao = "1" },
-                    new Alternativa { Correta = false, Descricao = "2" },
-                    new Alternativa { Correta = false, Descricao = "3" },
-                    new Alternativa { Correta = false, Descricao = "4" },
+                    new Alternativa { Correta = false, Descricao = "POLÔNIA" },
+                    new Alternativa { Correta = false, Descricao = "FRANÇA" },
+                    new Alternativa { Correta = false, Descricao = "ITÁLIA" },
+                    new Alternativa { Correta = false, Descricao = "HOLANDA" },
                 }
             },
 
@@ -629,10 +629,10 @@ namespace MauiAppShowDoMIilhao
                 Enunciado = "Qual é a primeira letra do alfabeto gregoo?",
                 Alternativas = new()
                 {
-                    new Alternativa { Correta = false, Descricao = "1" },
-                    new Alternativa { Correta = false, Descricao = "2" },
-                    new Alternativa { Correta = false, Descricao = "3" },
-                    new Alternativa { Correta = false, Descricao = "4" },
+                    new Alternativa { Correta = false, Descricao = "DELTA" },
+                    new Alternativa { Correta = false, Descricao = "BETA" },
+                    new Alternativa { Correta = false, Descricao = "ALFA" },
+                    new Alternativa { Correta = false, Descricao = "GAMA" },
                 }
             },
 
@@ -642,10 +642,10 @@ namespace MauiAppShowDoMIilhao
                 Enunciado = "Qual presidente brasileiro instituiu o AI-5?",
                 Alternativas = new()
                 {
-                    new Alternativa { Correta = false, Descricao = "1" },
-                    new Alternativa { Correta = false, Descricao = "2" },
-                    new Alternativa { Correta = false, Descricao = "3" },
-                    new Alternativa { Correta = false, Descricao = "4" },
+                    new Alternativa { Correta = false, Descricao = "COSTA E SILVA" },
+                    new Alternativa { Correta = false, Descricao = "GARRASTAZU MÉDICI" },
+                    new Alternativa { Correta = false, Descricao = "GETÚLIO VARGAS" },
+                    new Alternativa { Correta = false, Descricao = "ITAMAR FRANCO" },
                 }
             },
 
@@ -655,10 +655,10 @@ namespace MauiAppShowDoMIilhao
                 Enunciado = "Qual desses quatro pesos é o mais leve?",
                 Alternativas = new()
                 {
-                    new Alternativa { Correta = false, Descricao = "1" },
-                    new Alternativa { Correta = false, Descricao = "2" },
-                    new Alternativa { Correta = false, Descricao = "3" },
-                    new Alternativa { Correta = false, Descricao = "4" },
+                    new Alternativa { Correta = false, Descricao = "10 ONÇAS" },
+                    new Alternativa { Correta = false, Descricao = "10 GRAMAS" },
+                    new Alternativa { Correta = false, Descricao = "10 QUILOS" },
+                    new Alternativa { Correta = false, Descricao = "10 LIBRAS" },
                 }
             },
 
@@ -668,10 +668,10 @@ namespace MauiAppShowDoMIilhao
                 Enunciado = "Brahma é o deus de que religião?",
                 Alternativas = new()
                 {
-                    new Alternativa { Correta = false, Descricao = "1" },
-                    new Alternativa { Correta = false, Descricao = "2" },
-                    new Alternativa { Correta = false, Descricao = "3" },
-                    new Alternativa { Correta = false, Descricao = "4" },
+                    new Alternativa { Correta = false, Descricao = "HINDUÍSMO" },
+                    new Alternativa { Correta = false, Descricao = "XINTOÍSMO" },
+                    new Alternativa { Correta = false, Descricao = "BUDISMO" },
+                    new Alternativa { Correta = false, Descricao = "ISLAMISMO" },
                 }
             },
 
@@ -681,10 +681,10 @@ namespace MauiAppShowDoMIilhao
                 Enunciado = "Os nazistas foram julgados em?",
                 Alternativas = new()
                 {
-                    new Alternativa { Correta = false, Descricao = "1" },
-                    new Alternativa { Correta = false, Descricao = "2" },
-                    new Alternativa { Correta = false, Descricao = "3" },
-                    new Alternativa { Correta = false, Descricao = "4" },
+                    new Alternativa { Correta = false, Descricao = "BERLIM" },
+                    new Alternativa { Correta = false, Descricao = "NUREMBERG" },
+                    new Alternativa { Correta = false, Descricao = "MUNIQUE" },
+                    new Alternativa { Correta = false, Descricao = "PARIS" },
                 }
             },
 
@@ -694,10 +694,10 @@ namespace MauiAppShowDoMIilhao
                 Enunciado = "ue ramo da pecuária ocupa-se de bodes e cabras?",
                 Alternativas = new()
                 {
-                    new Alternativa { Correta = false, Descricao = "1" },
-                    new Alternativa { Correta = false, Descricao = "2" },
-                    new Alternativa { Correta = false, Descricao = "3" },
-                    new Alternativa { Correta = false, Descricao = "4" },
+                    new Alternativa { Correta = false, Descricao = "ASININO" },
+                    new Alternativa { Correta = false, Descricao = "CAPRINO" },
+                    new Alternativa { Correta = false, Descricao = "BUFALINO" },
+                    new Alternativa { Correta = false, Descricao = "MUAR" },
                 }
             },
 
@@ -707,10 +707,10 @@ namespace MauiAppShowDoMIilhao
                 Enunciado = "Qual oceano tem o maior volume de água?",
                 Alternativas = new()
                 {
-                    new Alternativa { Correta = false, Descricao = "1" },
-                    new Alternativa { Correta = false, Descricao = "2" },
-                    new Alternativa { Correta = false, Descricao = "3" },
-                    new Alternativa { Correta = false, Descricao = "4" },
+                    new Alternativa { Correta = false, Descricao = "ATLÂNTICO" },
+                    new Alternativa { Correta = false, Descricao = "PACÍFICO" },
+                    new Alternativa { Correta = false, Descricao = "ÍNDICO" },
+                    new Alternativa { Correta = false, Descricao = "ÁRTICO" },
                 }
             },
 
@@ -720,10 +720,10 @@ namespace MauiAppShowDoMIilhao
                 Enunciado = "Qual foi o último presidente militar do Brasil?",
                 Alternativas = new()
                 {
-                    new Alternativa { Correta = false, Descricao = "1" },
-                    new Alternativa { Correta = false, Descricao = "2" },
-                    new Alternativa { Correta = false, Descricao = "3" },
-                    new Alternativa { Correta = false, Descricao = "4" },
+                    new Alternativa { Correta = false, Descricao = "FERNANDO COLLOR" },
+                    new Alternativa { Correta = false, Descricao = "TANCREDO NEVES" },
+                    new Alternativa { Correta = false, Descricao = "JÕAO FIGUEREDO" },
+                    new Alternativa { Correta = false, Descricao = "JOÃO GOULART" },
                 }
             },
 
@@ -733,10 +733,10 @@ namespace MauiAppShowDoMIilhao
                 Enunciado = "Que conflito ideológico envolveu os EUA e a União Soviética?",
                 Alternativas = new()
                 {
-                    new Alternativa { Correta = false, Descricao = "1" },
-                    new Alternativa { Correta = false, Descricao = "2" },
-                    new Alternativa { Correta = false, Descricao = "3" },
-                    new Alternativa { Correta = false, Descricao = "4" },
+                    new Alternativa { Correta = false, Descricao = "GUERRA FRIA" },
+                    new Alternativa { Correta = false, Descricao = "GUERRA DO VIETNÃ" },
+                    new Alternativa { Correta = false, Descricao = "GUERRA DOS 100 ANOS" },
+                    new Alternativa { Correta = false, Descricao = "GUERRA DA CORÉIA" },
                 }
             },
 
@@ -746,10 +746,10 @@ namespace MauiAppShowDoMIilhao
                 Enunciado = "O trapézio é um músculo que está situado:",
                 Alternativas = new()
                 {
-                    new Alternativa { Correta = false, Descricao = "1" },
-                    new Alternativa { Correta = false, Descricao = "2" },
-                    new Alternativa { Correta = false, Descricao = "3" },
-                    new Alternativa { Correta = false, Descricao = "4" },
+                    new Alternativa { Correta = false, Descricao = "NO PESCOÇO" },
+                    new Alternativa { Correta = false, Descricao = "NO OMBRO" },
+                    new Alternativa { Correta = false, Descricao = "NA CABEÇA" },
+                    new Alternativa { Correta = false, Descricao = "NO BRAÇO" },
                 }
             },
 
@@ -759,10 +759,10 @@ namespace MauiAppShowDoMIilhao
                 Enunciado = "Quem escreveu o livro “A sangue frio” em 1966?",
                 Alternativas = new()
                 {
-                    new Alternativa { Correta = false, Descricao = "1" },
-                    new Alternativa { Correta = false, Descricao = "2" },
-                    new Alternativa { Correta = false, Descricao = "3" },
-                    new Alternativa { Correta = false, Descricao = "4" },
+                    new Alternativa { Correta = false, Descricao = "TRUMAN CAPOTE" },
+                    new Alternativa { Correta = false, Descricao = "HENRY JAMES" },
+                    new Alternativa { Correta = false, Descricao = "JOHN STEINBECK" },
+                    new Alternativa { Correta = false, Descricao = "TONI MORRISON" },
                 }
             },
 
@@ -772,10 +772,10 @@ namespace MauiAppShowDoMIilhao
                 Enunciado = "Quem escreveu “Ulisses” em 1922?",
                 Alternativas = new()
                 {
-                    new Alternativa { Correta = false, Descricao = "1" },
-                    new Alternativa { Correta = false, Descricao = "2" },
-                    new Alternativa { Correta = false, Descricao = "3" },
-                    new Alternativa { Correta = false, Descricao = "4" },
+                    new Alternativa { Correta = false, Descricao = "ERNEST HEMINGWAY" },
+                    new Alternativa { Correta = false, Descricao = "MARCEL PROUST" },
+                    new Alternativa { Correta = false, Descricao = "T.S. ELLIOT" },
+                    new Alternativa { Correta = false, Descricao = "JAMES JOYCE" },
                 }
             },
 
@@ -785,10 +785,10 @@ namespace MauiAppShowDoMIilhao
                 Enunciado = "Qual o símbolo químico do radônio?",
                 Alternativas = new()
                 {
-                    new Alternativa { Correta = false, Descricao = "1" },
-                    new Alternativa { Correta = false, Descricao = "2" },
-                    new Alternativa { Correta = false, Descricao = "3" },
-                    new Alternativa { Correta = false, Descricao = "4" },
+                    new Alternativa { Correta = false, Descricao = "Rr" },
+                    new Alternativa { Correta = false, Descricao = "Rd" },
+                    new Alternativa { Correta = false, Descricao = "Rn" },
+                    new Alternativa { Correta = false, Descricao = "Ro" },
                 }
             }
         };
